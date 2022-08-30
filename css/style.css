@@ -1,0 +1,23 @@
+body {
+    background-color: #FAEE1C;
+    background-image: linear-gradient(225deg, #FAEE1C 0%, #F3558E 25%, #9C1DE7 50%, #581B98 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.centrar {
+    padding-left: 35px;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    border: solid 5px gold;
+}
