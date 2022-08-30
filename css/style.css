@@ -21,3 +21,12 @@ main {
     height: 200px;
     border: solid 5px gold;
 }
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.textLabel{
+    font-size: 25px;
+    margin: 5px 10px;
+}
