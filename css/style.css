@@ -22,11 +22,20 @@ main {
     border: solid 5px gold;
 }
 
-h1{
+h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.textLabel{
+.textLabel {
     font-size: 25px;
     margin: 5px 10px;
+}
+
+.contenedor:hover .imagen {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.contenedor {
+    overflow: hidden;
 }
